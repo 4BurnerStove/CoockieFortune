@@ -18,7 +18,7 @@ function togleScreen() {
   screen2.classList.toggle('hide')
 }
 
-function PharseAltern(timeout = 3000) {
+function PharseAltern() {
   togleScreen()
   switch (PharseRandom) {
     case 0:
